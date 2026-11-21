@@ -1,0 +1,65 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face,eye_left,khác giá trị (IoU=0.78),open,unknown,mine,4.5,"Giữ nguyên open (thấy rõ khe mắt mở qua kính cận, peer để unknown nhưng không bật cờ occluded trên face13)"
+D01.png,face,eye_right,khác giá trị (IoU=0.78),open,unknown,mine,4.5,"Giữ nguyên open (thấy rõ khe mắt mở qua kính cận, peer để unknown nhưng không bật cờ occluded trên face13)"
+D01.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.31,,mine,4.4-5,Giữ nguyên box hand (hai bên cùng gán hand đúng side nhưng lệch nhẹ phạm vi cổ tay nên IoU < 0.5)
+D01.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-5,Giữ nguyên box hand (hai bên cùng gán hand đúng side nhưng lệch nhẹ phạm vi cổ tay nên IoU < 0.5)
+D02.png,hand,on_wheel,khác giá trị (IoU=0.88),no,unknown,mine,4.7,Giữ nguyên on_wheel=no (thấy rõ tay rời vô lăng ở chế độ tự lái)
+D02.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.49,,mine,4.4-5,Giữ nguyên box hand (hai bên cùng gán hand đúng side nhưng lệch nhẹ phạm vi cổ tay nên IoU < 0.5)
+D02.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-5,Giữ nguyên box hand (hai bên cùng gán hand đúng side nhưng lệch nhẹ phạm vi cổ tay nên IoU < 0.5)
+D03.png,face,gaze_zone,khác giá trị (IoU=0.65),road,other,mine,4.5,Giữ nguyên gaze_zone=road (đầu và hướng nhìn thẳng về phía kính chắn gió trước)
+D03.png,phone,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.7,"Giữ nguyên box phone state=held (thấy rõ hình dạng điện thoại tay trái đang cầm, peer bỏ sót)"
+D03.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D03.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D03.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D03.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D03.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D03.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D03.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D03.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D04.png,face13,mouth_left.occluded,khác cờ,1,0,mine,4.6,"Giữ nguyên occluded=1, outside=0 (vùng miệng bị tay/vật che nhưng vẫn trong khung ảnh và ước lượng được vị trí)"
+D04.png,face13,mouth_left.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên occluded=1, outside=0 (vùng miệng bị tay/vật che nhưng vẫn trong khung ảnh và ước lượng được vị trí)"
+D04.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,"Giữ nguyên occluded=1, outside=0 (vùng miệng bị tay/vật che nhưng vẫn trong khung ảnh và ước lượng được vị trí)"
+D04.png,face13,mouth_right.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên occluded=1, outside=0 (vùng miệng bị tay/vật che nhưng vẫn trong khung ảnh và ước lượng được vị trí)"
+D04.png,face13,lip_upper.occluded,khác cờ,1,0,mine,4.6,"Giữ nguyên occluded=1, outside=0 (vùng miệng bị tay/vật che nhưng vẫn trong khung ảnh và ước lượng được vị trí)"
+D04.png,face13,lip_upper.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên occluded=1, outside=0 (vùng miệng bị tay/vật che nhưng vẫn trong khung ảnh và ước lượng được vị trí)"
+D04.png,face13,lip_lower.occluded,khác cờ,1,0,mine,4.6,"Giữ nguyên occluded=1, outside=0 (vùng miệng bị tay/vật che nhưng vẫn trong khung ảnh và ước lượng được vị trí)"
+D04.png,face13,lip_lower.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên occluded=1, outside=0 (vùng miệng bị tay/vật che nhưng vẫn trong khung ảnh và ước lượng được vị trí)"
+D05.png,frame_meta,light,khác giá trị,night,unknown,mine,4.1,Giữ nguyên light=night (khung cảnh NIR tối ban đêm)
+D05.png,face,gaze_zone,khác giá trị (IoU=0.51),lap,other,mine,4.5,Giữ nguyên gaze_zone=lap (tài xế cúi nhìn xuống vùng đùi)
+D05.png,face,glasses,khác giá trị (IoU=0.51),clear,none,mine,4.5,Giữ nguyên glasses=clear (thấy gọng và đốm phản xạ LED trên tròng kính)
+D05.png,person,seatbelt,khác giá trị (IoU=0.80),worn_correct,unknown,mine,4.7,Giữ nguyên seatbelt=worn_correct (thấy rõ dải dây an toàn vắt chéo qua ngực)
+D05.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D05.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D05.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D05.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D05.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D05.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D05.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D05.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D06.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.46,,mine,4.1,"Giữ nguyên box face (hộp sát trán đến cằm, không lấy phần đỉnh tóc phồng như peer nên IoU=0.46)"
+D06.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1,"Giữ nguyên box face (hộp sát trán đến cằm, không lấy phần đỉnh tóc phồng như peer nên IoU=0.46)"
+D06.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D06.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D06.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D06.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D06.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D06.png,face13,right_eye_outer.outside,khác cờ,0,1,mine,4.6,"Giữ nguyên occluded=1, outside=0 (điểm khóe mắt ngoài bị kính che nhưng vẫn nằm trong mặt và đoán được vị trí)"
+D06.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D06.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+D06.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Giữ nguyên cờ occluded=1 (mắt là unknown do kính che/lóa nên các điểm mắt phải bật cờ occluded)
+S01_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giữ nguyên child_seat với occupied=yes theo hướng dẫn cập nhật schema cho ghế có trẻ em
+S03_ir.png,object,type,khác giá trị (IoU=0.73),other,cup,ambiguous,4.8,Giữ nguyên type=other (vật nhỏ ở ghế rear_right khó phân biệt chắc chắn là cup trên IR-sim nên chọn other)
+S03_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giữ nguyên child_seat với occupied=yes theo hướng dẫn cập nhật schema cho ghế có trẻ em
+S03_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giữ nguyên child_seat với occupied=yes theo hướng dẫn cập nhật schema cho ghế có trẻ em
+S03_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,Ghi nhận bổ sung box object trên bản RGB tương ứng với bản IR-sim
+S04_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.09,,mine,4.8,Giữ nguyên child_seat với occupied=yes theo hướng dẫn cập nhật schema cho ghế có trẻ em
+S04_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,Ghi nhận bổ sung box object trên bản RGB tương ứng với bản IR-sim
+S05_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giữ nguyên child_seat với occupied=yes theo hướng dẫn cập nhật schema cho ghế có trẻ em
+S05_ir.png,object,type,khác giá trị (IoU=0.86),cup,bag,mine,4.8,Giữ nguyên type=cup theo hình dạng đồ vật ở ghế rear_middle
+S05_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giữ nguyên child_seat với occupied=yes theo hướng dẫn cập nhật schema cho ghế có trẻ em
+S05_rgb.png,object,type,khác giá trị (IoU=0.93),cup,bag,mine,4.8,Giữ nguyên type=cup theo hình dạng đồ vật ở ghế rear_middle
+S06_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giữ nguyên child_seat với occupied=yes theo hướng dẫn cập nhật schema cho ghế có trẻ em
+S07_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giữ nguyên child_seat với occupied=yes theo hướng dẫn cập nhật schema cho ghế có trẻ em
+S07_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giữ nguyên child_seat với occupied=yes theo hướng dẫn cập nhật schema cho ghế có trẻ em
+S08_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.38,,peer,4.1,Thu gọn box face sát vùng mặt từ trán đến cằm giống trên S08_rgb.png (không ôm phần đỉnh tóc)
+S08_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1,Thu gọn box face sát vùng mặt từ trán đến cằm giống trên S08_rgb.png (không ôm phần đỉnh tóc)
