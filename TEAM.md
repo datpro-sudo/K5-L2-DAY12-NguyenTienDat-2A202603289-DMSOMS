@@ -1,10 +1,11 @@
 # TEAM — Ngày 12
 
-Mã bộ ảnh: **G03** · Hình thức: cá nhân (ghép cặp review chéo cùng mã G03)
+Mã bộ ảnh: **G03** · Hình thức: nhóm
 
 | Họ tên | MSSV | Đã gán đủ 22 ảnh? | Review chéo với (peer diff) | Số dòng disagreement đã xử lý |
 |---|---|---|---|---|
-| Nguyễn Tiến Đạt | 2A202603289 | có | Lê Minh Thắng (`thang` - `peer_export_final.zip`) | 64 |
+| Nguyễn Tiến Đạt | 2A202603289 | có | Lê Minh Thắng (2A202603292) | 64 |
+| Lê Minh Thắng | 2A202603292 | có | Nguyễn Tiến Đạt (2A202603289) | 64 |
 
 Ca hai bạn vẫn không thống nhất và đã hỏi coach (ghi tên ảnh + đối tượng):
 
